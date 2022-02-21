@@ -1,6 +1,6 @@
 # BreadthFirstSearchAdjList
 
-C# implementation of the Breadth First Search algorithm traversing a given unweighted graph layerwise. Searching stops when the requested node is found or when the whole graph is traversed but the requested node does not exist and the whole path between nodes is printed.
+C# implementation of the Breadth First Search algorithm traversing a given unweighted graph layerwise. Searching stops when the requested node is found or when the whole graph is traversed but the requested node does not exist. The whole path between nodes, followed by the algorithm is printed.
 
 Example Graph:
 
