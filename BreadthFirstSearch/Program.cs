@@ -143,7 +143,7 @@ namespace AdjListBFS
                 g.AddEdge(5, new Adjacency(7, 1));
                 g.AddEdge(5, new Adjacency(6, 1));
                 g.AddEdge(6, new Adjacency(7, 1));
-                g.AddEdge(7, new Adjacency(1, 0)); // we also need to create an instance of a node in the graph, even if it has no outgoing edges
+                g.AddEdge(7, new Adjacency(1, 0)); /// we also need to create an instance of a node in the graph, even if it has no outgoing edges
                 g.Display();
                 g.initvisited();
                 g.BFS(0, 10); // searching for node 10 -> "NOT FOUND"
